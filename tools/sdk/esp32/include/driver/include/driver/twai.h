@@ -338,6 +338,8 @@ esp_err_t twai_clear_transmit_queue(void);
  */
 esp_err_t twai_clear_receive_queue(void);
 
+uint8_t get_rx_queue_size();
+
 #ifdef __cplusplus
 }
 #endif
